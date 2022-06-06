@@ -1,0 +1,21 @@
+[
+    {
+        "image": "https://i.ibb.co/k3r0QV7/indian.jpg",
+        "price": 229,
+        "name": "Indian Cuisine",
+        "description":"Making sure the food tastes delicious"
+    },
+    {
+        "image": "https://i.ibb.co/KjPywJ4/chinese.jpg",
+        "price": 263,
+        "name": "Chinese Cuisine",
+        "description":"Making sure the food tastes delicious"
+    },
+    {
+        "image": "https://i.ibb.co/Gk7Bfvf/western.jpg",
+        "price": 455,
+        "name": "Western Cuisine",
+        "description":"Making sure the food tastes delicious"
+    }
+]
+

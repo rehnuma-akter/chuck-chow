@@ -3,3 +3,9 @@
     margin: 10px;
     background-color: rgb(24, 122, 220);
 }
+
+@media only screen and (max-width: 576px) {
+    .header{
+        width: 100%;
+    }
+}

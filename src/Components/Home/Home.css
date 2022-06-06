@@ -1,0 +1,44 @@
+.banner img{
+    width: 100%;
+    height: 540px;
+}
+.welcome-text{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 43px;
+    
+}
+.about-the-chef{
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    margin: 180px 50px;
+    justify-content: center;
+}
+.about-the-chef .chef-info{
+    text-align: left;
+    margin-top: 20px;
+}
+.about-the-chef .chef-photo img{
+    width: 450px;
+    height: 460px;
+    /* padding-left: 30px; */
+    border: 5px solid black;
+    border-radius: 22px;
+    margin-left: 35px;
+}
+
+@media only screen and (max-width: 650px) {
+    .banner {
+        width: 100%;
+    }
+    .about-the-chef{
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+        justify-content: center;
+        
+    }
+    .about-the-chef .chef-info{
+        padding-bottom: 26px;
+    }
+}

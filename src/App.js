@@ -14,7 +14,6 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
-      <h1>Welcome to React Router!</h1>
       <Routes>
         <Route path="/" element={<Home></Home>} />
         <Route path="/aboutme" element={<AboutMe></AboutMe>} />
@@ -27,6 +26,5 @@ function App() {
       <Footer></Footer>
     </div>
   );
-}
-
+};
 export default App;
