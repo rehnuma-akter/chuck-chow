@@ -3,7 +3,7 @@
 My Project Link - (https://chuck-chow-30a38.web.app/)
 
 
-### In the project,
+### In the project -
 1) I have worked with several components like Header,Home,AboutMe,Sign In/Out,Footer,Services etc.
 2)I have created a protected route too, which is the CheckOut component.
 3)There is a Blog page too which includes 3 given questions and answers.
