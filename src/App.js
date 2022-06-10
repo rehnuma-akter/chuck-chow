@@ -9,6 +9,10 @@ import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import NotFound from './Components/NotFound/NotFound';
 import Footer from './Components/Footer/Footer';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import RequireAuth from './Components/RequireAuth/RequireAuth';
+import CheckOut from './Components/CheckOut/CheckOut';
 
 function App() {
   return (
@@ -19,11 +23,20 @@ function App() {
         <Route path="/aboutme" element={<AboutMe></AboutMe>} />
         <Route path="/contact" element={<Contact></Contact>} />
         <Route path="/blog" element={<Blog></Blog>} />
+        <Route
+          path="/checkout"
+          element={
+            <RequireAuth>
+              <CheckOut />
+            </RequireAuth>
+          }
+        ></Route>
         <Route path="/login" element={<Login></Login>} />
         <Route path="/register" element={<Register></Register>} />
         <Route path="*" element={<NotFound></NotFound>} />
       </Routes>
       <Footer></Footer>
+      <ToastContainer />
     </div>
   );
 };

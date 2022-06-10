@@ -1,21 +1,24 @@
 [
     {
+        "id":1,
         "img": "https://i.ibb.co/k3r0QV7/indian.jpg",
         "price": 229,
         "name": "Indian Cuisine",
         "description": "As a chef, I know that all cuisines including Indian cuisine are influenced by many factors such as the ever-evolving diners' tastebuds, local cultures and food trends. I try doing justice to all of that."
     },
     {
+        "id": 2,
         "img": "https://i.ibb.co/KjPywJ4/chinese.jpg",
         "price": 263,
         "name": "Chinese Cuisine",
-        "description":"As a chef, I know that all cuisines including Chinese cuisine are influenced by many factors such as the ever-evolving diners' tastebuds, local cultures and food trends. I try doing justice to all of that."
-    },
+        "description": "As a chef, I know that all cuisines including Chinese cuisine are influenced by many factors such as the ever-evolving diners' tastebuds, local cultures and food trends. I try doing justice to all of that."
+        },
     {
+        "id": 3,
         "img": "https://i.ibb.co/Gk7Bfvf/western.jpg",
         "price": 455,
         "name": "Western Cuisine",
-        "description":"As a chef, I know that all cuisines including Western cuisine are influenced by many factors such as the ever-evolving diners' tastebuds, local cultures and food trends. I try doing justice to all of that."
+        "description": "As a chef, I know that all cuisines including Western cuisine are influenced by many factors such as the ever-evolving diners' tastebuds, local cultures and food trends. I try doing justice to all of that."
     }
 ]
 

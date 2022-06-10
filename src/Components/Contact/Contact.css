@@ -1,6 +1,9 @@
 .form{
-    margin: 30px;
-    margin-top: 60px;
+
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
     padding: 28px;
     border: 1px solid rgba(63, 63, 63, 0.358);
 }

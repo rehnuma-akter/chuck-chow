@@ -1,8 +1,15 @@
 import React from 'react';
 import { Button, Col, Form, Row } from 'react-bootstrap';
 import './Contact.css';
+import { useAuthState } from "react-firebase-hooks/auth";
+import auth from '../../firebase.init'
+import { toast } from 'react-toastify';
 
 const Contact = () => {
+    const [user] = useAuthState(auth);
+    const submit = () => {
+        toast("Thank You So Much For Submitting");
+    };
     return (
         <div>
             <h2 className='my-4'>Connect with Me</h2>
@@ -25,12 +32,6 @@ const Contact = () => {
                         <Form.Label>Address</Form.Label>
                         <Form.Control placeholder="1234 Main St" />
                     </Form.Group>
-
-                    <Form.Group className="mb-3" controlId="formGridAddress2">
-                        <Form.Label>Address 2</Form.Label>
-                        <Form.Control placeholder="Apartment, studio, or floor" />
-                    </Form.Group>
-
                     <Row className="mb-3">
                         <Form.Group as={Col} controlId="formGridCity">
                         <Form.Label>City</Form.Label>
@@ -50,7 +51,7 @@ const Contact = () => {
                         <Form.Control />
                         </Form.Group>
                     </Row>
-                    <Button variant="primary" type="submit">
+                    <Button variant="primary" type="submit" onClick={submit}>
                         Submit
                     </Button>
                 </Form>

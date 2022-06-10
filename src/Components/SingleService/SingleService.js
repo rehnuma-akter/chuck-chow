@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './SingleService.css'
 
 
@@ -14,7 +14,11 @@ const SingleService = ({ service }) => {
                 <p>{description}</p>
             </div>
             <p>${price}</p>
-            <Button className='px-1 py-1 fs-6' variant='primary'> Check Out</Button>        
+            <Link to={'/checkout'}>
+                <button className="check-out-btn rounded-0 border border-dark  btn btn-transparent text-dark px-4 py-2 custom-btn fw-bold">
+                CHECKOUT
+                </button>
+            </Link>        
         </div>
     );
 };
