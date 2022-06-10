@@ -52,7 +52,7 @@ const Register = () => {
                 placeholder="Password"
                 required
                 />
-                <input type="text" name="number" placeholder="Phone Number" required />
+                <input type="number" name="number" placeholder="Phone Number" required />
                 <br />
                 <button>Sign up</button>
                 <p>{errorElem}</p>

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import SingleService from "../SingleService/SingleService";
-import './Services.css'
 
 const Services = () => {
     const [services, setServices] = useState([]);

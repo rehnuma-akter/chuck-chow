@@ -27,7 +27,7 @@ const Home = () => {
                 />
                 <Carousel.Caption>
                 <h3>Best food for your taste</h3>
-                <p>Ensuring the meals are cooked and seasoned properly and that they are pleasing to the eye. </p>
+                <p>Ensuring the meals are cooked and seasoned properly and are pleasing to the eye. </p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -51,13 +51,10 @@ const Home = () => {
                         I began working in restaurants at the age of sixteen, washing dishes in a steakhouse at our local strip mall, 
                         then somehow, ending up at Chez Panisse in Berkeley, California, working with Alice Waters and co-owner, Executive
                         Pastry Chef Lindsey Shere, who I consider my pastry mentor. I spent thirteen years in the kitchens at Chez Panisse 
-                        before leaving in 1999. During my time in San Francisco, I was also a line cook at Zuni Café and the pastry chef at 
-                        several other San Francisco restaurants. Having been a professional cook and baker for most of my life, I launched this 
-                        davidlebovitz.com in 1999 to coincide with the release of my first book, Room for Dessert, which was updated and those 
-                        recipes were incorporated into Ready for Dessert, a compendium of my all-time favorite baking recipes. The website was 
-                        intended as a place to share recipes and stories. At the time, the word “blog” hadn’t been invented nor had the concept,
-                        but the blog hasn’t stopped, and recently celebrated its twentieth anniversary. In 2019, I was honored by Saveur magazine with
-                        their first-ever Blog of the Decade award.
+                        before pursuing my goals. I was a highly skilled person who was in charge of food production in a commercial kitchen. My duties were very diverse.
+                        Apart from managing the kitchen and overseeing its staff, I had to plan menus, work out the costing of each dish, 
+                        and manage inventories and raw material procurement. Now I am a full time home chef, ready to share my food and experiences with 
+                        as many people as I can reach.
                     </p>
                 </div>
                 <div className='chef-photo'>

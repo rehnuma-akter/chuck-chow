@@ -11,7 +11,6 @@ const AboutMe = () => {
                 confident enough to explore more as I go deep into the process.
                 From here my goal is to sharpen my skills even more and try to help as many people as I can
                 with my acquired knowledge. Also looking forward to build exciting stuffs through the opportunities I get in my way.
-                
             </p>
         </div>
     );
